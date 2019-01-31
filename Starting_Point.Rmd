@@ -20,6 +20,5 @@ We'll start with: 2.7 books from the Library of Congress, which should be all th
 ```{r}
 library(tidyverse)
 books = read_csv("~/projects/LOC_gender/authors.csv.gz")
-d
 ```
 
