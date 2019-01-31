@@ -1,0 +1,25 @@
+---
+title: "Gender project"
+output: html_notebook
+---
+
+Let's do some data analysis about gender.
+
+Steps:
+
+1. State some motivating questions.
+2. Pull out the first names.
+3. Using the gender package, automatically infer genders.
+4. Create summary statistics.
+5. Plot this across some form of time.
+6. Plot this in soome other ways that *don't* have time as a dimension.
+7. Draw some conclusions. Did women leave novels as they found opportunities elsewhere? Are there historical events you can observe?
+
+We'll start with: 2.7 books from the Library of Congress, which should be all the books with personal names in the metadata.
+
+```{r}
+library(tidyverse)
+books = read_csv("~/projects/LOC_gender/authors.csv.gz")
+d
+```
+
